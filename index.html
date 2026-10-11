@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uwishema Professional Hub connects software developers and educators with opportunities to grow.">
+  <meta name="theme-color" content="#071b35">
+  <title>Uwishema Professional Hub | Connect. Grow. Succeed.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Uwishema Professional Hub home">
+        <img src="irene.jfif" alt="Uwishema Professional Hub logo">
+        <span class="brand-name">UWISHEMA <small>PROFESSIONAL HUB</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#developers">Developers</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#how-it-works">How it works</a>
+        <a class="nav-cta" href="#get-started">Get started <span aria-hidden="true">↗</span></a>
+        
+<!-- Profile menu: hidden until a user logs in -->
+<div class="profile-nav" id="profile-nav" hidden>
+  <button
+    type="button"
+    class="profile-avatar-button"
+    id="profile-avatar-button"
+    aria-label="Open profile menu"
+    aria-expanded="false"
+  >
+    <img id="nav-profile-image" alt="Your profile" hidden>
+    <span id="nav-profile-initial">I</span>
+  </button>
+
+  <div class="profile-dropdown" id="profile-dropdown" hidden>
+    <div class="dropdown-user">
+      <strong id="nav-profile-name">Your name</strong>
+      <span id="nav-profile-email">your@email.com</span>
+    </div>
+
+    <button type="button" id="open-my-dashboard">
+      My dashboard
+    </button>
+
+    <button type="button" id="open-my-profile">
+      Change profile photo
+    </button>
+
+    <button type="button" id="nav-logout">
+      Log out
+    </button>
+  </div>
+</div>
+
+        <a href="#auth-section" id="nav-login">Log in</a>
+        <a href="#auth-section" id="nav-signup">Create account</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A hub for talent and opportunity</div>
+          <h1>Where talent meets <span>opportunity.</span></h1>
+          <p class="hero-text">A professional space connecting software developers and private school teachers with opportunities to showcase their skills, grow their careers, and make an impact.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#get-started">Find your path <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#how-it-works"><span class="play-icon" aria-hidden="true">▶</span> Explore how it works</a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-icon" aria-hidden="true"><span>✦</span></div>
+            <p><strong>Built around your potential</strong><br><span>Show your work. Tell your story. Take your next step.</span></p>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Uwishema Professional Hub brand">
+          <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+          <div class="visual-card main-card">
+            <img class="hero-logo" src="assets/uwishema-logo.jfif" alt="Uwishema Professional Hub — Connecting Developers and Educators">
+            <div class="card-bottom">
+              <div><span class="status-dot"></span> One hub. Two pathways.</div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+          </div>
+          <div class="floating-card float-code"><span class="float-icon">&lt;/&gt;</span><span><strong>Developers</strong><small>Build what’s next</small></span></div>
+          <div class="floating-card float-book"><span class="float-icon">✦</span><span><strong>Educators</strong><small>Shape what’s next</small></span></div>
+          <div class="visual-spark spark-one">✧</div><div class="visual-spark spark-two">✦</div>
+        </div>
+      </div>
+      <div class="hero-bottom-line"></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Platform focus">
+      <div class="container trust-items">
+        <span><i aria-hidden="true">✦</i> Professional profiles</span>
+        <span><i aria-hidden="true">⌘</i> Skills and portfolios</span>
+        <span><i aria-hidden="true">◎</i> Career opportunities</span>
+        <span><i aria-hidden="true">↗</i> Growth and connection</span>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="section-kicker">MORE THAN A PROFILE</p>
+          <h2>Your skills deserve<br>to be <span class="text-gradient">seen.</span></h2>
+        </div>
+        <div class="intro-content">
+          <p>Uwishema Professional Hub is designed for people who are ready to move forward. Build a professional profile, present your experience clearly, and discover a pathway that fits your goals.</p>
+          <a class="text-link" href="#get-started">Discover your pathway <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pathways-section" id="pathways">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="section-kicker">CHOOSE YOUR PATH</p>
+          <h2>Two professions. <span class="text-gradient">One hub.</span></h2>
+          <p>Purpose-built pathways to help you show what you do best.</p>
+        </div>
+        <div class="pathway-grid">
+          <article class="pathway-card developer-card" id="developers">
+            <div class="pathway-top">
+              <div class="pathway-icon code-icon" aria-hidden="true">&lt;/&gt;</div>
+              <span class="pathway-number">01 / DEVELOPERS</span>
+            </div>
+            <h3>Turn your code into your next opportunity.</h3>
+            <p class="pathway-description">Showcase your technical skills, projects, and experience in a profile that helps employers understand what you can build.</p>
+            <ul class="feature-list">
+              <li><span class="check">✓</span> Present your tech stack and skills</li>
+              <li><span class="check">✓</span> Highlight projects and portfolio links</li>
+              <li><span class="check">✓</span> Make your experience easier to discover</li>
+            </ul>
+            <a class="button button-light" href="#get-started" data-path="developer">Explore developer pathway <span aria-hidden="true">→</span></a>
+            <div class="card-decoration decoration-code" aria-hidden="true">{ }</div>
+          </article>
+          <article class="pathway-card teacher-card" id="teachers">
+            <div class="pathway-top">
+              <div class="pathway-icon teacher-icon" aria-hidden="true">✦</div>
+              <span class="pathway-number">02 / TEACHERS</span>
+            </div>
+            <h3>Your teaching experience can open new doors.</h3>
+            <p class="pathway-description">Present your subjects, qualifications, classroom experience, and teaching strengths in one professional place.</p>
+            <ul class="feature-list">
+              <li><span class="check">✓</span> Showcase subjects and certifications</li>
+              <li><span class="check">✓</span> Highlight teaching experience and methods</li>
+              <li><span class="check">✓</span> Connect your profile to school opportunities</li>
+            </ul>
+            <a class="button button-light" href="#get-started" data-path="teacher">Explore teacher pathway <span aria-hidden="true">→</span></a>
+            <div class="card-decoration decoration-teacher" aria-hidden="true">✧</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how-it-works">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">SIMPLE BY DESIGN</p>
+          <h2>Make your next move<br><span class="text-gradient">with confidence.</span></h2>
+          <p>Get started with a clear process focused on your professional story.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><span class="step-number">01</span><div class="step-icon" aria-hidden="true">◎</div><h3>Create your profile</h3><p>Bring together your experience, skills, qualifications, and professional goals.</p></article>
+          <article class="step-card"><span class="step-number">02</span><div class="step-icon" aria-hidden="true">✧</div><h3>Show your strengths</h3><p>Highlight your projects or teaching experience so people can understand your value.</p></article>
+          <article class="step-card"><span class="step-number">03</span><div class="step-icon" aria-hidden="true">↗</div><h3>Explore opportunities</h3><p>Prepare to connect with opportunities aligned with your professional pathway.</p></article>
+        </div>
+        <p class="note-text">Platform features are being developed. Opportunity matching and account services will become available as the backend is connected.</p>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="get-started">
+      <div class="container">
+        <div class="cta-panel">
+          <div class="cta-decoration" aria-hidden="true"></div>
+          <div class="cta-copy">
+            <p class="section-kicker">YOUR NEXT CHAPTER STARTS HERE</p>
+            <h2>Ready to put your<br>potential in motion?</h2>
+            <p>Choose your professional pathway and take the first step toward a stronger profile.</p>
+          </div>
+          <div class="cta-actions">
+            <button class="button button-primary" type="button" data-path="developer">I’m a developer <span aria-hidden="true">→</span></button>
+            <button class="button button-outline" type="button" data-path="teacher">I’m a teacher <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section newsletter-section" aria-labelledby="newsletter-title">
+      <div class="container newsletter-wrap">
+        <div><p class="section-kicker">STAY IN THE LOOP</p><h2 id="newsletter-title">Good things are <span class="text-gradient">taking shape.</span></h2><p>Get in touch to learn more about the platform.</p></div>
+        <a class="button button-light" href="mailto:hello@uwishemhub.example?subject=Uwishema%20Professional%20Hub%20enquiry">Contact the team <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- AUTHENTICATION SECTION -->
+<section class="auth-section" id="auth-section">
+  <div class="auth-card">
+
+    <div class="auth-heading">
+      <span class="auth-label">UWISHEMA PROFESSIONAL HUB</span>
+      <h2 id="auth-title">Create your account</h2>
+      <p id="auth-description">
+        Join our community of developers and teachers.
+      </p>
+    </div>
+
+    <!-- SIGN-UP FORM -->
+    <form id="signup-form">
+      <label for="signup-name">Full name</label>
+      <input
+        type="text"
+        id="signup-name"
+        placeholder="Enter your full name"
+        autocomplete="name"
+        required
+      >
+
+      <label for="signup-email">Email address</label>
+      <input
+        type="email"
+        id="signup-email"
+        placeholder="you@example.com"
+        autocomplete="email"
+        required
+      >
+
+      <label for="signup-category">Professional category</label>
+      <select id="signup-category" required>
+        <option value="">Choose your category</option>
+        <option value="developer">Software Developer</option>
+        <option value="teacher">Private School Teacher</option>
+      </select>
+
+      <label for="signup-password">Password</label>
+      <input
+        type="password"
+        id="signup-password"
+        placeholder="Create a password"
+        minlength="8"
+        autocomplete="new-password"
+        required
+      >
+
+      <label for="signup-confirm-password">Confirm password</label>
+      <input
+        type="password"
+        id="signup-confirm-password"
+        placeholder="Enter your password again"
+        minlength="8"
+        autocomplete="new-password"
+        required
+      >
+
+      <button type="submit" class="auth-button">
+        Create account
+      </button>
+
+      <p class="auth-switch">
+        Already have an account?
+        <button type="button" id="show-login">Log in</button>
+      </p>
+    </form>
+
+    <!-- LOGIN FORM -->
+    <form id="login-form" hidden>
+      <label for="login-email">Email address</label>
+      <input
+        type="email"
+        id="login-email"
+        placeholder="Enter your registered email"
+        autocomplete="email"
+        required
+      >
+
+      <label for="login-category">Professional category</label>
+      <select id="login-category" required>
+        <option value="">Choose your category</option>
+        <option value="developer">Software Developer</option>
+        <option value="teacher">Private School Teacher</option>
+      </select>
+
+      <label for="login-password">Password</label>
+      <input
+        type="password"
+        id="login-password"
+        placeholder="Enter your password"
+        autocomplete="current-password"
+        required
+      >
+
+      <button type="submit" class="auth-button">
+        Log in
+      </button>
+
+      <p class="auth-switch">
+        Don't have an account?
+        <button type="button" id="show-signup">Create account</button>
+      </p>
+    </form>
+
+    <!-- STATUS MESSAGES -->
+    <p id="auth-message" class="auth-message" role="status"
+       aria-live="polite"></p>
+
+    <!-- DASHBOARD -->
+    <div id="user-dashboard" hidden>
+      <div class="dashboard-icon">✓</div>
+      <h2>Welcome, <span id="welcome-name"></span>!</h2>
+      <p>You are logged in to Uwishema Professional Hub.</p>
+
+      <div class="account-details">
+        <p><strong>Email:</strong> <span id="welcome-email"></span></p>
+        <p><strong>Category:</strong> <span id="welcome-category"></span></p>
+      </div>
+
+      <button type="button" id="logout-button" class="auth-button">
+        Log out
+      </button>
+    </div>
+
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home" aria-label="Uwishema Professional Hub home">
+        <img src="irene.jfif" alt="">
+        <span class="brand-name">UWISHEMA <small>PROFESSIONAL HUB</small></span>
+      </a>
+      <p>Connecting developers and educators.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Uwishema Professional Hub</span><span>Connect. Grow. Succeed.</span></div>
+  </footer>
+
+  <dialog class="path-dialog" id="path-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Close dialog">×</button>
+    <div class="dialog-symbol" aria-hidden="true">✦</div>
+    <p class="section-kicker">UWISHEMA PROFESSIONAL HUB</p>
+    <h2 id="dialog-title">Your pathway starts here.</h2>
+    <p id="dialog-message">We're preparing the profile setup experience. The backend is not connected yet.</p>
+    <button class="button button-primary dialog-ok" type="button">Got it</button>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="index.js" defer></script>
+<script src="profile-dashboard.js" defer></script>
+</body>
+</html>
